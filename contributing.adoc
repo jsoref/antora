@@ -451,7 +451,7 @@ Here are a few rules when writing tests and assertions:
  ** See https://eslint.org/docs/rules/no-unused-expressions
  ** The functional assertion syntax is provided by the dirty-chai plugin.
 * When creating a negated assertion, please write it as `.to.not` instead of `.not.to` (e.g., `expect(actual).to.not.have.property('bar')`).
- ** To help you remember, the assertion should always begin wtih `.to`.
+ ** To help you remember, the assertion should always begin with `.to`.
 * Use `.equal` instead of `.eql` to compare strings (e.g., `expect(actual).to.equal('foo')`).
  ** expect#equal is a strict === comparison
 * Use `.eql` to compare arrays and objects (e.g., `expect(actual).to.equal(['a', 'b', 'c'])`).
