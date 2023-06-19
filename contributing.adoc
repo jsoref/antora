@@ -15,7 +15,7 @@
 :url-issue-labels: {url-project}/labels
 :url-ci-pipelines: {url-project}/pipelines
 :url-members: {url-project}/-/project_members
-// Project documentation URIs (alphebetized)
+// Project documentation URIs (alphabetized)
 :url-adrs: {url-project}/tree/main/devdocs/adr
 :url-adr-0001: {url-project}/blob/main/devdocs/adr/0001-minimum-node-version.adoc
 :url-packages: {url-project}/blob/main/packages
@@ -31,7 +31,7 @@
 :url-site-mapper-arch: {url-packages}/site-mapper/devdocs/architecture-guidebook.adoc
 :url-file-publisher-arch: {url-packages}/file-publisher/devdocs/architecture-guidebook.adoc
 :url-ui-loader-arch: {url-packages}/ui-loader/devdocs/architecture-guidebook.adoc
-// External URLs (alphebetized)
+// External URLs (alphabetized)
 :url-asciidoc-recommended: https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
 :url-async-func: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 :url-chai: http://chaijs.com/api/bdd/
