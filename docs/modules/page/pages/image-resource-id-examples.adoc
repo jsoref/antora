@@ -418,7 +418,7 @@ image::5.2@wilderness-map.jpg[]
 As shown in <<ex-across-versions>>, the target image's version coordinate is `5.2` and its file coordinate is `wilderness-map.jpg`.
 
 ////
-This needs to either become its Fown page or be added as section to another page
+This needs to either become its own page or be added as section to another page
 
 == Apply attributes to an image
 
