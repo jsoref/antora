@@ -1581,7 +1581,7 @@ describe('classifyContent()', () => {
     })
 
     // QUESTION should we throw an error or warning?
-    it('should not register navigation file that points to non-existent file', () => {
+    it('should not register navigation file that points to nonexistent file', () => {
       aggregate[0].nav = ['modules/ROOT/no-such-file.adoc']
       aggregate[0].files.push(createFile('modules/ROOT/pages/the-page.adoc'))
       aggregate[0].files.push(createFile('modules/ROOT/nav.adoc'))
