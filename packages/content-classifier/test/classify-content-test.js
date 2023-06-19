@@ -848,7 +848,7 @@ describe('classifyContent()', () => {
       files.push({ path: 'modules/ROOT/pages/index.adoc', src: { extname: '.adoc' } })
       const contentCatalog = classifyContent(playbook, aggregate, siteAsciiDocConfig, (contentCatalog) => {
         expect(contentCatalog.getComponentVersion('the-component', 'v1.2.3').files).to.equal(files)
-        contentCatalog.registerComponentVersion('the-other-component', '1.0', { title: 'The Other Compmonent' })
+        contentCatalog.registerComponentVersion('the-other-component', '1.0', { title: 'The Other Component' })
         return contentCatalog
       })
       expect(contentCatalog.getComponents()).to.have.lengthOf(2)
